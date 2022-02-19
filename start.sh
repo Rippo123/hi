@@ -1,10 +1,10 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://git.heroku.com/0 /0
+  git clone https://git.heroku.com/hi /hi
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /0
+  git clone $UPSTREAM_REPO /hi
 fi
 cd /0
 pip freeze > requirements.txt
