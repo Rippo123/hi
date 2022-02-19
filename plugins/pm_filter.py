@@ -696,16 +696,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="▢▢▢"
+            text="❎❎❎"
         )
         await query.message.edit_text(
-            text="▣▢▢"
+            text="✅❎❎"
         )
         await query.message.edit_text(
-            text="▣▣▢"
+            text="✅✅❎"
         )
         await query.message.edit_text(
-            text="▣▣▣"
+            text="✅✅✅"
         )
         await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
@@ -769,14 +769,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("𝖢𝗈𝗏𝗂𝖽𝖾", callback_data='corona')
             ],[
             InlineKeyboardButton("𝖲𝗍𝗂𝖼𝗄𝖾𝗋-𝖨𝖣", callback_data='sticker'),
-            InlineKeyboardButton("𝖱𝖾𝗉𝗈𝗋𝗍𝗌", callback_data='report'),
             InlineKeyboardButton("𝖠𝗎𝖽𝗂𝗈𝖻𝗈𝗈𝗄", callback_data='abook')
             ],[
             InlineKeyboardButton("𝖨𝗆𝖺𝗀𝖾", callback_data='image')
             ],[
             InlineKeyboardButton("⌫", callback_data='start'),
             InlineKeyboardButton("📄 1/2", callback_data='help_pages'),
-            InlineKeyboardButton("⌦", callback_data='help_twoo')
+            InlineKeyboardButton("⌦", callback_data='help_yet')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -822,16 +821,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="▢▢▢"
+            text="❎❎❎"
         )
         await query.message.edit_text(
-            text="▣▢▢"
+            text="✅❎❎"
         )
         await query.message.edit_text(
-            text="▣▣▢"
+            text="✅✅❎"
         )
         await query.message.edit_text(
-            text="▣▣▣"
+            text="✅✅✅"
         )
         await query.answer("𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝗍𝗈 𝗆𝗒 𝖧𝖾𝗅𝗉 𝗆𝗈𝖽𝗎𝗅𝖾")
         await query.message.edit_text(
@@ -1354,7 +1353,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer("𝖳𝗁𝗂𝗌 𝗂𝗌 𝗍𝗁𝖾 𝗌𝖾𝖼𝗈𝗇𝖽 𝗉𝖺𝗀𝖾 𝗈𝖿 𝗆𝗒 𝖧𝖾𝗅𝗉 𝗆𝗈𝖽𝗎𝗅𝖾", show_alert=True
         )
     elif query.data == "help_yet":
-        await query.answer("𝖳𝗁𝖺𝗍 𝗉𝖺𝗀𝖾 𝗂𝗌 𝗇𝗈𝗍 𝗒𝖾𝗍 𝗋𝖾𝖺𝖽𝗒 ", show_alert=True
+        await query.answer("This page will coming soon", show_alert=True
         )
     elif query.data == "help_twoo":
         buttons = [[
