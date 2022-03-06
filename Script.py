@@ -21,9 +21,9 @@ class script(object):
     ABOUT_TXT = """
 ➢ 𝐌𝐲 𝐍𝐚𝐦𝐞: Clifford
     
-➢ 𝐌𝐲 𝐂𝐫𝐞𝐚𝐭𝐨𝐫: <a href='tg://user?id=5164540391'>[Alif]</a>
+➢ 𝐌𝐲 𝐂𝐫𝐞𝐚𝐭𝐨𝐫: <a href='tg://user?id=1994966467'>[Alif]</a>
 
-➢ 𝐌𝐲 𝐒𝐨𝐮𝐫𝐜𝐞: <a href='https://t.me/free_music123/22903'>Click Here</a>
+➢ 𝐌𝐲 𝐒𝐨𝐮𝐫𝐜𝐞: <a href='https://t.me/AdhavaaBiriyaniKittiyalo'>Click Here</a>
 
 ➢ 𝐌𝐲 𝐋𝐢𝐛𝐫𝐚𝐫𝐲: 𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆
 
@@ -35,7 +35,7 @@ class script(object):
 
 ➢ 𝐌𝐲 𝐔𝐩𝐝𝐚𝐭𝐞𝐬: <a href='https://t.me/check_this_channel'>Join Here</a>
 
-➢ 𝐌𝐲 𝗖𝗵𝗮𝗻𝗻𝗲𝗹: <a href='https://t.me/film_godown'>Film Godown</a>
+➢ 𝐌𝐲 𝗖𝗵𝗮𝗻𝗻𝗲𝗹: <a href='https://t.me/ML_MOVIE_LOKAM'>Film Godown</a>
 
 ➤ 𝙸𝚏 𝚢𝚘𝚞 𝚕𝚒𝚔𝚎 𝚝𝚑𝚒𝚜 𝚋𝚘𝚝 𝚙𝚕𝚎𝚊𝚜𝚎 𝚜𝚑𝚊𝚛𝚎 𝚊𝚗𝚍 𝚜𝚞𝚙𝚙𝚘𝚛𝚝 𝚞𝚜 ⚡</a>"""
     CORONA_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝖢𝗈𝗏𝗂𝖽𝖾
